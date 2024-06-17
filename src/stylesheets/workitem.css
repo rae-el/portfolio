@@ -1,0 +1,26 @@
+
+.work-item{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: var(--off-white);
+    border: 1px solid var(--shadow);
+}
+.work-item .item-content{
+    padding: 1em;
+}
+.work-item .item-tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    justify-content: center;
+}
+.work-item .item-tag{
+    font-size: 0.875rem;
+    border-radius: 15px;
+    padding: 0.3rem;
+    margin: 0;
+    color: var(--dark-grey);
+    border: 1px solid var(--mid-teal);
+}
+

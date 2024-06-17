@@ -1,0 +1,33 @@
+.about h2{
+    margin-left: 2em;
+}
+.logo-container{
+    display: flex;
+    flex-direction: column-reverse;
+    gap:1em;
+}
+.logo-img{
+    align-self: flex-end;
+}
+.image-container{
+    align-content: end;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-primary-container{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr auto;
+    gap:1em;
+}
+@media only screen and (min-width: 600px){
+    .about-primary-container{
+        display: grid;
+        gap:3em;
+    }
+    .logo-container{
+        display: flex;
+        flex-direction: row;
+        gap:3em;
+    }
+}
